@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: post-ms
+spec:
+  containers:
+    - name: post-ms
+      image: gabrielo91/post-ms:0.0.1
